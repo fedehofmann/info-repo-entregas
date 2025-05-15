@@ -1,7 +1,7 @@
 # Ejercicio 1
 def invertir_lista (lista):
   lista_2 = []
-  for i in range (1, len(lista)):
+  for i in range (1, len(lista) + 1):
     lista_2.append(lista[-i])
   return lista_2
 
